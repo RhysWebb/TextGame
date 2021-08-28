@@ -1,0 +1,196 @@
+using System;
+
+namespace MadLibs
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      /*
+      This program is a practice game with the explicit intent to teach me.
+      Author: My name
+      */
+
+
+      // Let the user know that the program is starting:
+      string gameStart = "Game is starting...";
+      Console.WriteLine(gameStart);
+
+      // Give the Mad Lib a title:
+      string title = "Title";
+      Console.WriteLine("");
+      Console.WriteLine($"This is the games title: {title}");
+
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(o o)");
+      Console.WriteLine("| O |   <...Hi!");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.ReadLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(^ ^)");
+      Console.WriteLine("| V |   <...No I'm not a dildo!");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.ReadLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(o o)");
+      Console.WriteLine("| . |   <...I'm... err... Pete.");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.ReadLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(o o)");
+      Console.WriteLine("| O |   <...Anyway. Welcome to my game.");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.ReadLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(o o)");
+      Console.WriteLine("| V |   <...Lets start with you name.");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+
+
+      // Define user input and variables:
+      Console.Write("Enter your name: ");
+      string playerName = Console.ReadLine();
+      Console.WriteLine();
+      Console.Write($"Wow! That's a great name. Thanks {playerName}. Your next task is to write an adjective: ");
+      string adjectiveOne = Console.ReadLine();
+      Console.WriteLine("");
+      Console.Write("Good job! While I compute that could you provide me with another? Remember to make it different: ");
+      string adjectiveTwo = Console.ReadLine();
+      Console.WriteLine("");
+      Console.Write("Awesome... I'd love for you to share just one more: ");
+      string adjectiveThree = Console.ReadLine();
+      Console.WriteLine("");
+      Console.WriteLine($"Excellent work {playerName}. You're a real pal! Let me just process these real quick.");
+      Console.WriteLine();
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(- -)");
+      Console.WriteLine("| . |   <...zzZZ...zzZz...");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.WriteLine();
+      Console.ReadLine();
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(> <)");
+      Console.WriteLine("| @ |   <...  !");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.ReadLine();
+      Console.WriteLine($"{playerName}! I mean ... Blast, looks like I need a bit more work from you there buddy.");
+      Console.Write("I could really use a tasty little verb from you: ");
+      string verb = Console.ReadLine();
+      Console.WriteLine();
+      Console.Write("Great! Now I just need a noun: ");
+      string nounOne = Console.ReadLine();
+      Console.WriteLine();
+      Console.Write("Hopefully just one more should do it: ");
+      string nounTwo = Console.ReadLine();
+      Console.WriteLine();
+      Console.WriteLine("Yay! Now back to processing and NOT sleeping. ");
+      Console.WriteLine();
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(- -)");
+      Console.WriteLine("| . |   <...zzZZ...zzZz...");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.WriteLine();
+      Console.ReadLine();
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(> <)");
+      Console.WriteLine("| @ |   <...  !");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.ReadLine();
+      Console.WriteLine("Oh look who it is again!");
+      Console.WriteLine($"I mean, hey {playerName}! I might need just one... or seven more things from you.");
+      Console.WriteLine();
+
+
+      Console.Write("Firstly I'd like an animal, any animal you like: ");
+      string animal = Console.ReadLine();
+      Console.WriteLine();
+      
+      Console.Write("Next I'd like something food related, something you eat maybe: ");
+      string food = Console.ReadLine();
+      Console.WriteLine();
+
+      Console.Write("Now a piece of fruit... I know you already did food but hey I do... and do not make the rules. Just write some fruit! Please: ");
+      string fruit = Console.ReadLine();
+      Console.WriteLine();
+
+      Console.Write("Now your favourite superhero: ");
+      Console.ReadLine();
+      Console.WriteLine();
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(> <)");
+      Console.WriteLine("| @ |   <...  !");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.WriteLine();
+      Console.WriteLine("I see you misspelled my name a little bit... Don't worry I can fix that!");
+      string superhero = "Pete (Ah thanks!)";
+
+      Console.WriteLine();
+      Console.Write("Now I need a country: ");
+      string country = Console.ReadLine();
+      Console.WriteLine();
+
+      Console.Write("Oh look more food... Write a dessert please: ");
+      string dessert = Console.ReadLine();
+      Console.WriteLine();
+
+      Console.Write("Lastly a year: ");
+      string year = Console.ReadLine();
+      Console.WriteLine();
+      
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(v v)");
+      Console.WriteLine("| O |   <... Pffft!");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.ReadLine();
+
+      Console.WriteLine($"Finally {playerName}. I think thats all we need! Now back to slee... processing this data!");
+      Console.WriteLine("Now I'd love it if you didn't wake me to finish the game but if you insist.. I'll tell a terrible story! Got it?");
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(- -)");
+      Console.WriteLine("| . |   <...zzZZ...zzZz...");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.WriteLine();
+      Console.ReadLine();
+
+      // The template for the story:
+
+      string story = $"This morning {playerName} woke up feeling {adjectiveOne}. 'It is going to be a {adjectiveTwo} day!' Outside, a bunch of {animal}s were protesting to keep {food} in stores. They began to {verb} to the rhythm of the {nounOne}, which made all the {fruit}s very {adjectiveThree}. Concerned, {playerName} texted {superhero}, who flew {playerName} to {country} and dropped {playerName} in a puddle of frozen {dessert}. {playerName} woke up in the year {year}, in a world where {nounTwo}s ruled the world.";
+
+
+      // Print the story:
+
+      Console.WriteLine();
+      Console.WriteLine(" .-.");
+      Console.WriteLine("(> <)");
+      Console.WriteLine("| @ |   <...  !");
+      Console.WriteLine("|   |");
+      Console.WriteLine("`~~~'");
+      Console.WriteLine();
+      Console.WriteLine("Right! Now you've asked for it!");
+      Console.WriteLine(story);
+      Console.WriteLine();
+      Console.WriteLine();
+      Console.ReadLine();
+      Console.WriteLine("Okay, That was particularly bad. Thats on me but you did wake me up!");
+    }
+  }
+}
